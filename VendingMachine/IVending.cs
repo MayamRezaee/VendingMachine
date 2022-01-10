@@ -9,10 +9,6 @@ namespace VendingMachineNS.ProductInfo
         public List<Product> ShowAll();
         void InsertMoney(int amount);
         void EndTransaction();
-        /*string Eat();
-        string Drink();
-        string Play();*/
-
 
     }
 
