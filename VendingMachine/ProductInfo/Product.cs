@@ -23,6 +23,7 @@ namespace VendingMachineNS.ProductInfo
         {
             return ++idCounter;
         }
+
         public string Info()
         {
             return $"   Name: {name}\tPrice: {price}";

@@ -10,12 +10,8 @@ namespace VendingMachineNS.ProductInfo
 
         public Toy(string name, int price, string madeIn) : base (name, price)
         {
-            this.MadeIn = madeIn;
-            
+            this.MadeIn = madeIn;            
         }
-
-      
-
         public new string Info()
         {
             return base.Info() + $"\tMade in: { MadeIn}";
@@ -24,8 +20,5 @@ namespace VendingMachineNS.ProductInfo
         {
             return "Now you can play with it";
         }
-
-
-
     }
 }

@@ -7,12 +7,13 @@ namespace VendingMachineNS.ProductInfo
     {
         public List<Product> products;
 
+        //This is a repository of all the products in the Vending Machine. 
         public ProductRepository()
         {
             products = new List<Product>();
 
-            Toy teddy = new Toy("Teddy", 500, "Iran");
-            Toy doll = new Toy("Doll", 500, "Sweden");
+            Toy teddy = new Toy("Teddy", 700, "Sweden");
+            Toy doll = new Toy("Doll", 500, "Iran");
             Drink cola = new Drink("Cola", 15, 200, 100);
             Drink fanta = new Drink("Fanta", 15, 30, 100);           
             Snack chips = new Snack("Chips", 50, 100);
@@ -25,10 +26,9 @@ namespace VendingMachineNS.ProductInfo
             products.Add(chips);
             products.Add(nuts);
         }
-
+        // This method will generate an Id to a product.
         public Product GetProductById(int id)
         {
-
             foreach (var productItem in products)
             {
                 if (productItem.Id == id)
@@ -36,7 +36,6 @@ namespace VendingMachineNS.ProductInfo
                     return productItem;
                 }
             }
-
             throw new ArgumentOutOfRangeException();
         }
 

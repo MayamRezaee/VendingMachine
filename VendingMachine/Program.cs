@@ -1,20 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using VendingMachineNS;
 
 namespace VendingMachineNS.ProductInfo
 {
     class Program
     {
         static IVending vendingMachine = new VendingMachine();
-
         static void Main(string[] args)
         {
-
             RequestUserAction();
-        
         }
 
+        // This method will get the user requests. 
         public static void RequestUserAction()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -39,7 +35,7 @@ namespace VendingMachineNS.ProductInfo
                         Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.Write($" Product ID: {product.Id}");
                         Console.ResetColor();
-                       
+
                         if (product is Drink)
                         {
                             Console.WriteLine("\n" + (product as Drink).Info());
@@ -53,7 +49,7 @@ namespace VendingMachineNS.ProductInfo
                             Console.WriteLine("\n" + (product as Snack).Info());
                         }
                     }
-                   
+
                     break;
                 case 3:
                     BuyAProduct();
@@ -71,7 +67,8 @@ namespace VendingMachineNS.ProductInfo
             }
             RequestUserAction();
         }
-
+        
+        //This method will be used when user wants to insert money to the vending machine. 
         private static void InsertMoney()
         {
             string strFixedDenominations = "";
@@ -88,6 +85,7 @@ namespace VendingMachineNS.ProductInfo
 
         }
 
+        // This method will get called when user wants to buy a new product.
         private static void BuyAProduct()
         {
 
@@ -98,8 +96,8 @@ namespace VendingMachineNS.ProductInfo
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.Write($" Product ID: {product.Id}");
                 Console.ResetColor();
-                //Console.Write($" { product.name} ");
 
+                //USer will get a message about how to use the product she/he have bought. 
                 if (product is Drink)
                 {
                     Console.WriteLine("\n" + (product as Drink).Info());
@@ -117,8 +115,7 @@ namespace VendingMachineNS.ProductInfo
             int selectedProduct = Int32.Parse(Console.ReadLine());
             vendingMachine.Purchase(selectedProduct);
         }
-      
+
     }
 }
 
-       

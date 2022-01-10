@@ -21,7 +21,8 @@ namespace VendingMachineNS.ProductInfo
         {
             var product = repository.GetProductById(id);
 
-
+            // What happen when user doesnt have enough money in the vending machine,
+            // in order to but the product she/he wants.
             if (!_moneyPool.Has(product.price))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -35,6 +36,7 @@ namespace VendingMachineNS.ProductInfo
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"You've bought {product.name} for {product.price} SEK. ");
 
+            // Usage info of a product.
             if (product is Drink)
             {
                 Console.WriteLine((product as Drink).Drinkit());
@@ -54,21 +56,21 @@ namespace VendingMachineNS.ProductInfo
             Console.ResetColor();
         }
 
+        // return to all the product in list products in repository.
         public List<Product> ShowAll()
         {
             return repository.products;
         }
 
-        internal void InsertMoney(int v, object amount)
-        {
-            throw new NotImplementedException();
-        }
-
+        // Add the amount of money user adds to vending machine. 
         public void InsertMoney(int amount)
         {
             _moneyPool.Add(amount);
         }
 
+        // If user want to exit from the system, a message will appear about the amunt of
+        // money she/he have left in the machine and the amount of money she/he will get back in 
+        // a apprepriate way. 
         public void EndTransaction()
         {
             if (_moneyPool.MoneyInMachine == 0)
@@ -89,7 +91,7 @@ namespace VendingMachineNS.ProductInfo
 
                 foreach (KeyValuePair<int, int> item in _moneyPool.CalculateRemaining())
                 {
-                    Console.WriteLine($" Get {item.Value} of {item.Key} SEK");
+                    Console.WriteLine($" Get {item.Value},  {item.Key} SEK");
                 }
 
                 Console.ResetColor();
