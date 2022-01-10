@@ -68,41 +68,6 @@ namespace VendingMachineNS
 
             return remaining;
         }
-
-        // function to find place value
-        /*static int placeValue(int N, int num)
-        {
-            int total = 1, value = 0, rem = 0;
-            while (true)
-            {
-                rem = N % 10;
-                N = N / 10;
-
-                if (rem == num)
-                {
-                    value = total * rem;
-                    break;
-                }
-
-                total = total * 10;
-            }
-            return value;
-        }
-
-        // Driver Code
-        public static void Main()
-        {
-
-            // Digit, which we want
-            // to find place value.
-            int D = 5;
-
-            // Number from where we
-            // want to find place value.
-            int N = 85932;
-
-            Console.Write(placeValue(N, D));
-        }*/
     }
 
 }
