@@ -5,7 +5,7 @@ using System.Text;
 namespace VendingMachineNS.ProductInfo
 {
    
-    public class Product
+    public abstract class Product
     {
         public string name;
         public int Id { get; set; }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rrLYqaBSz4s5ZbCO/qRUjxdK4yYBurc99uG3B/Kkbo+1c7tw2g1Bd+A0C6FOxKJzYnAHqDPZx2/WCsu/xfDXeQ==",
+  "dgSpecHash": "GnDFjBLLM94BnTsO7k1Ndp9sMqdcP0vN5S5oX1RaKFgScSNXIKcogyXxEnmQ0gVegVx75HsysGvi0SfEtWfWrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marya\\Desktop\\VendingMachine\\VendingMachine\\VendingMachineTest\\VendingMachineTest.csproj",
+  "projectFilePath": "C:\\Users\\marya\\Source\\Repos\\VendingMachine\\VendingMachineTest\\VendingMachineTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marya\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\marya\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

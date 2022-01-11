@@ -5940,11 +5940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marya\\Desktop\\VendingMachine\\VendingMachine\\VendingMachineTest\\VendingMachineTest.csproj",
+      "projectUniqueName": "C:\\Users\\marya\\Source\\Repos\\VendingMachine\\VendingMachineTest\\VendingMachineTest.csproj",
       "projectName": "VendingMachineTest",
-      "projectPath": "C:\\Users\\marya\\Desktop\\VendingMachine\\VendingMachine\\VendingMachineTest\\VendingMachineTest.csproj",
+      "projectPath": "C:\\Users\\marya\\Source\\Repos\\VendingMachine\\VendingMachineTest\\VendingMachineTest.csproj",
       "packagesPath": "C:\\Users\\marya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marya\\Desktop\\VendingMachine\\VendingMachine\\VendingMachineTest\\obj\\",
+      "outputPath": "C:\\Users\\marya\\Source\\Repos\\VendingMachine\\VendingMachineTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5967,8 +5967,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\marya\\Desktop\\VendingMachine\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {
-              "projectPath": "C:\\Users\\marya\\Desktop\\VendingMachine\\VendingMachine\\VendingMachine\\VendingMachine.csproj"
+            "C:\\Users\\marya\\Source\\Repos\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {
+              "projectPath": "C:\\Users\\marya\\Source\\Repos\\VendingMachine\\VendingMachine\\VendingMachine.csproj"
             }
           }
         }
