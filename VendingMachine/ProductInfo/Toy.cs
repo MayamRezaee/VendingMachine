@@ -12,7 +12,7 @@ namespace VendingMachineNS.ProductInfo
         {
             this.MadeIn = madeIn;            
         }
-        public new string Info()
+        public override string Info()
         {
             return base.Info() + $"\tMade in: { MadeIn}";
         }

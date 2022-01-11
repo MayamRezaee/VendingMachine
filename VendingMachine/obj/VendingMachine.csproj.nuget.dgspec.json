@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marya\\Source\\Repos\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {}
+    "C:\\Users\\marya\\source\\repos\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marya\\Source\\Repos\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {
+    "C:\\Users\\marya\\source\\repos\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marya\\Source\\Repos\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
+        "projectUniqueName": "C:\\Users\\marya\\source\\repos\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
         "projectName": "VendingMachine",
-        "projectPath": "C:\\Users\\marya\\Source\\Repos\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
+        "projectPath": "C:\\Users\\marya\\source\\repos\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
         "packagesPath": "C:\\Users\\marya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marya\\Source\\Repos\\VendingMachine\\VendingMachine\\obj\\",
+        "outputPath": "C:\\Users\\marya\\source\\repos\\VendingMachine\\VendingMachine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

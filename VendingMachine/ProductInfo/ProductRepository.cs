@@ -14,8 +14,8 @@ namespace VendingMachineNS.ProductInfo
 
             Toy teddy = new Toy("Teddy", 700, "Sweden");
             Toy doll = new Toy("Doll", 500, "Iran");
-            Drink cola = new Drink("Cola", 15, 200, 100);
-            Drink fanta = new Drink("Fanta", 15, 30, 100);           
+            Drink cola = new Drink("Cola", 15, 100);
+            Drink fanta = new Drink("Fanta", 15, 100);           
             Snack chips = new Snack("Chips", 50, 100);
             Snack nuts = new Snack("Nuts", 60, 50);
                       

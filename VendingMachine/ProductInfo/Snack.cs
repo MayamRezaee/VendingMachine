@@ -13,7 +13,7 @@ namespace VendingMachineNS.ProductInfo
         }
 
         // Which information vending machine show to user about each snack.
-        public new string Info()
+        public override string Info()
         {
             return base.Info() + $"\tSugar:{Sugar} gram";
         }
